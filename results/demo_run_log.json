@@ -1,0 +1,8383 @@
+{
+  "config": {
+    "arena_size": 100.0,
+    "base_pos": [
+      50.0,
+      50.0
+    ],
+    "num_robots": 6,
+    "num_tasks": 20,
+    "num_obstacles": 4,
+    "topology": "ring",
+    "heterogeneous": true,
+    "alpha": 0.5,
+    "seed": 42,
+    "dt": 0.2
+  },
+  "metrics": {
+    "seed": 42,
+    "num_robots": 6,
+    "num_tasks": 20,
+    "topology": "ring",
+    "heterogeneous": true,
+    "alpha": 0.5,
+    "completed_tasks": 19,
+    "coverage": 0.95,
+    "total_energy_spent": 720.236,
+    "energy_per_task": 37.907,
+    "total_distance": 584.525,
+    "min_final_energy": 20.013,
+    "rounds": 6,
+    "sync_steps": 84,
+    "messages_sent": 1008,
+    "bytes_sent": 80208,
+    "sim_time_sec": 39.2,
+    "wall_time_ms": 32.23,
+    "unconverged_rounds": 0,
+    "obstacle_penetrations": 0,
+    "violations": 0
+  },
+  "round_logs": [
+    {
+      "round": 1,
+      "assigned": {
+        "0": 7,
+        "1": 3,
+        "2": 16,
+        "3": 5,
+        "4": 8,
+        "5": 9
+      },
+      "sync_steps": 24,
+      "converged": true,
+      "messages_cumulative": 288,
+      "bytes_cumulative": 38592
+    },
+    {
+      "round": 2,
+      "assigned": {
+        "0": 17,
+        "1": 12,
+        "2": 1,
+        "3": 13,
+        "4": 18,
+        "5": 4
+      },
+      "sync_steps": 18,
+      "converged": true,
+      "messages_cumulative": 504,
+      "bytes_cumulative": 59760
+    },
+    {
+      "round": 3,
+      "assigned": {
+        "0": 0,
+        "1": 14,
+        "2": 15
+      },
+      "sync_steps": 12,
+      "converged": true,
+      "messages_cumulative": 648,
+      "bytes_cumulative": 68688
+    },
+    {
+      "round": 4,
+      "assigned": {
+        "0": 6,
+        "1": 2,
+        "2": 19
+      },
+      "sync_steps": 12,
+      "converged": true,
+      "messages_cumulative": 792,
+      "bytes_cumulative": 75024
+    },
+    {
+      "round": 5,
+      "assigned": {
+        "2": 10
+      },
+      "sync_steps": 12,
+      "converged": true,
+      "messages_cumulative": 936,
+      "bytes_cumulative": 78768
+    },
+    {
+      "round": 6,
+      "assigned": {},
+      "sync_steps": 6,
+      "converged": true,
+      "messages_cumulative": 1008,
+      "bytes_cumulative": 80208
+    }
+  ],
+  "task_logs": [
+    {
+      "round": 1,
+      "task_id": 3,
+      "robot_id": 1,
+      "completed_time_sec": 3.8,
+      "robot_energy_after": 132.891
+    },
+    {
+      "round": 1,
+      "task_id": 7,
+      "robot_id": 0,
+      "completed_time_sec": 4.6,
+      "robot_energy_after": 173.685
+    },
+    {
+      "round": 1,
+      "task_id": 8,
+      "robot_id": 4,
+      "completed_time_sec": 5.0,
+      "robot_energy_after": 94.699
+    },
+    {
+      "round": 1,
+      "task_id": 9,
+      "robot_id": 5,
+      "completed_time_sec": 5.0,
+      "robot_energy_after": 123.315
+    },
+    {
+      "round": 1,
+      "task_id": 16,
+      "robot_id": 2,
+      "completed_time_sec": 5.8,
+      "robot_energy_after": 181.597
+    },
+    {
+      "round": 1,
+      "task_id": 5,
+      "robot_id": 3,
+      "completed_time_sec": 6.2,
+      "robot_energy_after": 103.231
+    },
+    {
+      "round": 2,
+      "task_id": 12,
+      "robot_id": 1,
+      "completed_time_sec": 10.8,
+      "robot_energy_after": 116.026
+    },
+    {
+      "round": 2,
+      "task_id": 17,
+      "robot_id": 0,
+      "completed_time_sec": 11.6,
+      "robot_energy_after": 148.771
+    },
+    {
+      "round": 2,
+      "task_id": 4,
+      "robot_id": 5,
+      "completed_time_sec": 12.0,
+      "robot_energy_after": 101.085
+    },
+    {
+      "round": 2,
+      "task_id": 1,
+      "robot_id": 2,
+      "completed_time_sec": 12.6,
+      "robot_energy_after": 153.93
+    },
+    {
+      "round": 2,
+      "task_id": 13,
+      "robot_id": 3,
+      "completed_time_sec": 13.0,
+      "robot_energy_after": 70.302
+    },
+    {
+      "round": 2,
+      "task_id": 18,
+      "robot_id": 4,
+      "completed_time_sec": 13.0,
+      "robot_energy_after": 71.13
+    },
+    {
+      "round": 3,
+      "task_id": 15,
+      "robot_id": 2,
+      "completed_time_sec": 18.0,
+      "robot_energy_after": 131.627
+    },
+    {
+      "round": 3,
+      "task_id": 14,
+      "robot_id": 1,
+      "completed_time_sec": 18.6,
+      "robot_energy_after": 89.273
+    },
+    {
+      "round": 3,
+      "task_id": 0,
+      "robot_id": 0,
+      "completed_time_sec": 18.8,
+      "robot_energy_after": 122.308
+    },
+    {
+      "round": 4,
+      "task_id": 2,
+      "robot_id": 1,
+      "completed_time_sec": 23.8,
+      "robot_energy_after": 68.865
+    },
+    {
+      "round": 4,
+      "task_id": 19,
+      "robot_id": 2,
+      "completed_time_sec": 24.6,
+      "robot_energy_after": 103.242
+    },
+    {
+      "round": 4,
+      "task_id": 6,
+      "robot_id": 0,
+      "completed_time_sec": 24.8,
+      "robot_energy_after": 95.364
+    },
+    {
+      "round": 5,
+      "task_id": 10,
+      "robot_id": 2,
+      "completed_time_sec": 30.6,
+      "robot_energy_after": 76.907
+    }
+  ],
+  "robot_logs": [
+    {
+      "robot_id": 0,
+      "initial_energy": 194.571,
+      "final_energy": 37.106,
+      "reserve_energy": 10.0,
+      "energy_per_meter": 1.139,
+      "inspection_factor": 1.0415,
+      "distance_traveled": 116.575,
+      "tasks_completed": 4,
+      "trajectory_points": 101
+    },
+    {
+      "robot_id": 1,
+      "initial_energy": 147.434,
+      "final_energy": 23.858,
+      "reserve_energy": 10.0,
+      "energy_per_meter": 1.0145,
+      "inspection_factor": 1.1892,
+      "distance_traveled": 92.979,
+      "tasks_completed": 4,
+      "trajectory_points": 81
+    },
+    {
+      "robot_id": 2,
+      "initial_energy": 205.194,
+      "final_energy": 20.013,
+      "reserve_energy": 10.0,
+      "energy_per_meter": 1.1318,
+      "inspection_factor": 1.0474,
+      "distance_traveled": 140.973,
+      "tasks_completed": 5,
+      "trajectory_points": 122
+    },
+    {
+      "robot_id": 3,
+      "initial_energy": 128.836,
+      "final_energy": 27.248,
+      "reserve_energy": 10.0,
+      "energy_per_meter": 1.0818,
+      "inspection_factor": 0.8183,
+      "distance_traveled": 85.399,
+      "tasks_completed": 2,
+      "trajectory_points": 74
+    },
+    {
+      "robot_id": 4,
+      "initial_energy": 109.038,
+      "final_energy": 34.5,
+      "reserve_energy": 10.0,
+      "energy_per_meter": 0.8319,
+      "inspection_factor": 0.8931,
+      "distance_traveled": 81.626,
+      "tasks_completed": 2,
+      "trajectory_points": 71
+    },
+    {
+      "robot_id": 5,
+      "initial_energy": 143.092,
+      "final_energy": 65.202,
+      "reserve_energy": 10.0,
+      "energy_per_meter": 1.0543,
+      "inspection_factor": 0.9459,
+      "distance_traveled": 66.972,
+      "tasks_completed": 2,
+      "trajectory_points": 58
+    }
+  ],
+  "message_log": [
+    {
+      "round": 1,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 19,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 19,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 19,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 19,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 19,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 19,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 19,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 19,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 19,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 19,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 19,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 19,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 20,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 20,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 20,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 20,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 20,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 20,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 20,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 20,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 20,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 20,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 20,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 20,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 21,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 21,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 21,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 21,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 21,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 21,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 21,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 21,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 21,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 21,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 21,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 21,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 256
+    },
+    {
+      "round": 1,
+      "sync_step": 22,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 22,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 22,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 22,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 22,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 22,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 22,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 22,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 22,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 22,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 22,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 22,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 23,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 23,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 23,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 23,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 23,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 23,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 23,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 23,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 23,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 23,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 23,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 23,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 24,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 24,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 24,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 24,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 24,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 24,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 24,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 24,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 24,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 24,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 24,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 1,
+      "sync_step": 24,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 13,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 14,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 15,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 184
+    },
+    {
+      "round": 2,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 16,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 17,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 2,
+      "sync_step": 18,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 112
+    },
+    {
+      "round": 3,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 3,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 76
+    },
+    {
+      "round": 4,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 4,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 7,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 8,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 9,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 40
+    },
+    {
+      "round": 5,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 10,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 11,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 5,
+      "sync_step": 12,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 1,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 2,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 3,
+      "msg_type": "BID_TABLE",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 28
+    },
+    {
+      "round": 6,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 4,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 5,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 0,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 0,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 1,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 1,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 2,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 2,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 3,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 3,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 4,
+      "receiver": 5,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 4,
+      "bytes": 12
+    },
+    {
+      "round": 6,
+      "sync_step": 6,
+      "msg_type": "STABILITY_FLAG",
+      "sender": 5,
+      "receiver": 0,
+      "bytes": 12
+    }
+  ]
+}
